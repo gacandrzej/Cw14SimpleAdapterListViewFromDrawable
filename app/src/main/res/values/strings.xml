@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Cw14SimpleAdapterListViewFromDrawable</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="spinner_tooltip">Wybierz obrazek</string>
+
+    <string-array name="product_names">
+        <item>jabłko</item>
+        <item>banan</item>
+        <item>awokado</item>
+        <item>czereśnie</item>
+        <item>porzeczki</item>
+        <item>borówka amerykańska</item>
+        <item>pitaja</item>
+        <item>orzech kokosowy</item>
+        <item>jeżyna</item>
+    </string-array>
+
+    <string-array name="product_descriptions">
+        <item>Owoc o chrupkiej teksturze i słodko-kwaśnym smaku, bogaty w błonnik i witaminę C</item>
+        <item>Miękki, słodki owoc o wysokiej zawartości potasu, idealny na szybką przekąskę.</item>
+        <item>Kremowy owoc o wysokiej zawartości zdrowych tłuszczów, często używany w sałatkach i guacamole</item>
+        <item>Małe, słodkie owoce o intensywnym czerwonym kolorze, doskonałe na deser.</item>
+        <item>Drobne owoce o kwaśnym smaku, często używane do przetworów i soków.</item>
+        <item>Małe, okrągłe owoce o intensywnie niebieskim kolorze i słodkim smaku z lekką kwaskowatością.</item>
+        <item>Egzotyczny owoc o intensywnym różowym kolorze i delikatnym, słodkim smaku.</item>
+        <item>Twardy owoc o białym miąższu i orzeźwiającym wodzie kokosowej.</item>
+        <item>Ciemny, soczysty owoc o słodko-kwaśnym smaku, często używany w deserach.</item>
+    </string-array>
+
+</resources>

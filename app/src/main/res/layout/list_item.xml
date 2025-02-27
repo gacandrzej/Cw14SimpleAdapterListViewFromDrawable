@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Zdjęcie produktu -->
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:scaleType="centerCrop"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- Nazwa produktu -->
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produkt"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_toEndOf="@id/itemImage"/>
+
+    <!-- Opis produktu -->
+    <TextView
+        android:id="@+id/itemDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opis produktu"
+        android:textSize="14sp"
+        android:layout_toEndOf="@id/itemImage"
+        android:layout_below="@id/itemName"/>
+</RelativeLayout>
