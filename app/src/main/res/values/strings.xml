@@ -3,6 +3,10 @@
     <string name="todo">TODO</string>
     <string name="todo2">TODO</string>
     <string name="spinner_tooltip">Wybierz obrazek</string>
+    <string name="nazwa_produktu">Nazwa produktu</string>
+    <string name="opis_produktu">Opis produktu</string>
+    <string name="produkt">Produkt</string>
+    <string name="opis_produktu2">Opis produktu</string>
 
     <string-array name="product_names">
         <item>jabłko</item>

@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     SimpleAdapter adapter;
     int selectedItem = -1;
     private String[] productNames;
-    private String[] productDescriptions;
     private int[] productImages;
 
     @Override
@@ -72,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadDefaultProducts() {
         productNames = getResources().getStringArray(R.array.product_names);
-        productDescriptions = getResources().getStringArray(R.array.product_descriptions);
+        String[] productDescriptions = getResources().getStringArray(R.array.product_descriptions);
 
         productImages = new int[]{
                 R.drawable.apple, R.drawable.banana, R.drawable.avocado,
