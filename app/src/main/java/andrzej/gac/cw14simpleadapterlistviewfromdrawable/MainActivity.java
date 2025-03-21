@@ -24,12 +24,12 @@ import java.util.List;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
-    ListView listView;
-    FloatingActionButton fabAdd;
-    FloatingActionButton fabDelete;
-    List<Map<String, Object>> fruitsList;
-    SimpleAdapter adapter;
-    int selectedItem = -1;
+    private ListView listView;
+    private FloatingActionButton fabAdd;
+    private FloatingActionButton fabDelete;
+    private List<Map<String, Object>> fruitsList;
+    private SimpleAdapter adapter;
+    private int selectedItem = -1;
     private String[] productNames;
     private int[] productImages;
 
